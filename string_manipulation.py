@@ -21,6 +21,6 @@ def most_frequent_word(sentence):
 
     return None
 
-# Example usage
-sentence = "This is a test. This test is only a test."
+# Example for understanding
+sentence = "This is a task. This task is only a task."
 print(most_frequent_word(sentence))
