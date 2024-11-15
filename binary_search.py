@@ -16,7 +16,7 @@ def binary_search(sorted_list, target):
 
     return -1                          # Target not found
 
-# Example usage
+# Example for understanding
 numbers = [1, 3, 5, 7, 9, 11]
 print(binary_search(numbers, 5))  # Output: 2
 print(binary_search(numbers, 8))  # Output: -1
