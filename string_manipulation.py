@@ -1,4 +1,3 @@
-# Function to find the most frequently occurring word in a sentence
 def most_frequent_word(sentence):
   
     import re
