@@ -1,36 +1,43 @@
-# Assignment Solutions
+# Assignment
 
-This repository contains solutions to the assignment tasks.
+This repository contains solutions for the following tasks:
 
-## Tasks and Files
-1. **Data Processing Task**: Calculates total and average salary per department.
-   - File: `data_processing_task.py`
-   - Run: `python data_processing_task.py`
+## Contents
 
-2. **String Manipulation Task**: Finds the most frequent word in a sentence.
-   - File: `string_manipulation_task.py`
-   - Run: `python string_manipulation_task.py`
+1. **Data Processing Task**: Calculate total and average salary per department.
+2. **String Manipulation Task**: Find the most frequently occurring word in a sentence.
+3. **Algorithm Challenge**: Implement binary search on a sorted list.
+4. **Bonus Challenge**: Filter products from a CSV file based on price range and category.
 
-3. **Binary Search Task**: Implements binary search on a sorted list.
-   - File: `binary_search_task.py`
-   - Run: `python binary_search_task.py`
+---
 
-4. **Bonus Challenge**: Filters products based on category and price range from a CSV file.
-   - File: `bonus_csv_filter.py`
-   - Sample Input: `sample_input.csv`
-   - Run: `python bonus_csv_filter.py`
+## Instructions to Run
 
-## Sample CSV for Bonus Challenge
-- **File**: `sample_input.csv`
-  - Columns: `product_id`, `name`, `category`, `price`
-- **Output**: `output.csv`
+### **1. Data Processing Task**
+- Navigate to `data_processing.py`.
+- Run the script in a Python environment.
+- Example usage is included in the script.
 
-## Prerequisites
-- Python 3.7+
-- Required libraries:
-  - For bonus task: Install via `pip install -r requirements.txt` if libraries like `csv` need updates.
+### **2. String Manipulation Task**
+- Navigate to `string_manipulation.py`.
+- Run the script with any input sentence.
 
-## Instructions
-1. Clone the repository.
-2. Navigate to the directory.
-3. Run the task-specific Python scripts.
+### **3. Algorithm Challenge**
+- Navigate to `binary_search.py`.
+- Provide a sorted list and target value as input.
+- Example usage is included.
+
+### **4. Bonus Challenge**
+- Place the input CSV file (`sample_input.csv`).
+- Run `bonus_task.py`.
+- The filtered results will be saved to `filtered_output.csv`.
+
+---
+
+## Bonus Challenge Instructions
+1. **Input Requirements**:
+   - CSV file with `product_id`, `name`, `category`, and `price` columns.
+2. **Run**:
+   - Modify the script to update `min_price`, `max_price`, or `category_filter`.
+3. **Output**:
+   - Filtered products are saved to `filtered_output.csv`.
