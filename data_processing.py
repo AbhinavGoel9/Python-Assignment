@@ -1,4 +1,3 @@
-# Function to calculate total and average salary for each department
 def process_salaries(employee_records):
   
     # Dictionary to store total and average salary per department
@@ -24,7 +23,7 @@ def process_salaries(employee_records):
 
     return result
 
-# Example usage
+# Example for understanding
 employees = [
     {'name': 'Alice', 'department': 'HR', 'salary': 5000},
     {'name': 'Bob', 'department': 'IT', 'salary': 7000},
