@@ -1,6 +1,5 @@
 import csv
 
-# Function to filter products by price range and category
 def filter_products(input_file, output_file, min_price, max_price, category_filter):
     with open(input_file, 'r') as infile, open(output_file, 'w', newline='') as outfile:
         reader = csv.DictReader(infile)
@@ -17,7 +16,7 @@ def filter_products(input_file, output_file, min_price, max_price, category_filt
             if min_price <= price <= max_price and category == category_filter:
                 writer.writerow(row)
 
-# Example usage
+# Example for understanding
 filter_products(
     input_file='sample_input.csv',
     output_file='filtered_output.csv',
